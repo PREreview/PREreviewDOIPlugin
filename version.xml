@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/importexport/prereview/version.xml
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>prereview</application>
+	<type>plugins.importexport</type>
+	<release>1.0.0.0</release>
+	<date>2021-06-26</date>
+</version>
+

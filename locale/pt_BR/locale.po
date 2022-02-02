@@ -1,0 +1,56 @@
+msgid "plugins.importexport.prereview.description"
+msgstr "Por meio deste plugin, os DOIs dos preprints podem ser enviados ao PREreview para solicitar avaliações da comunidade de pesquisa do  PREreview."
+
+msgid "plugins.importexport.prereview.send.error.mdsError"
+msgstr "Não foi possível enviar, por favor tente novamente"
+
+msgid "plugins.importexport.prereview.configure.error.mdsError"
+msgstr "Verificar a configuração das chaves"
+
+msgid "plugins.importexport.prereview.request.error.mdsError"
+msgstr "Já existe uma solicitação"
+
+msgid "plugins.importexport.prereview.autorRegister.error.mdsError"
+msgstr "O autor não autorizou o envio"
+
+msgid "plugins.importexport.prereview.configPlugin.error.mdsError"
+msgstr "Certifique-se de que o plugin está activo e configurado."
+
+msgid "plugins.importexport.prereview.configure.success.mdSuccess"
+msgstr "DOI submetido com sucesso ao PRE-review."
+
+msgid "plugins.importexport.prereview.status.registered"
+msgstr "Registrado"
+
+msgid "plugins.importexport.prereview.status.failed"
+msgstr "Não registado"
+
+msgid "plugins.importexport.prereview.status.NotAuthorized"
+msgstr "Não autorizado pelo autor"
+
+msgid "plugins.importexport.prereview.name"
+msgstr "PREreview"
+
+msgid "plugins.importexport.prereview.action"
+msgstr "Enviar"
+
+msgid "plugins.importexport.common.export.articles"
+msgstr "Preprints"
+
+msgid "plugins.importexport.common.status.notDeposited"
+msgstr "Não enviado"
+
+msgid "plugins.importexport.prereview.selector"
+msgstr "Seleccione"
+
+msgid "plugins.importexport.prereview.title"
+msgstr "Título"
+
+msgid "plugins.importexport.prereview.settings"
+msgstr "Configurações de Plugin PRE-review"
+
+msgid "plugins.importexport.prereview.requirements"
+msgstr "Requisitos de plugin não cumpridos"
+
+msgid "plugins.importexport.prereview.requirementsMessage"
+msgstr "Verificar se o plugin PREreview está configurado"

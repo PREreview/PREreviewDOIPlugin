@@ -1,0 +1,53 @@
+msgid "plugins.importexport.prereview.description"
+msgstr "Via this plugin, preprint DOIs can be sent to PREreview to solicit feedback from the PREreview research community."
+
+msgid "plugins.importexport.prereview.send.error.mdsError"
+msgstr "Couldn't send, please try again."
+
+msgid "plugins.importexport.prereview.configure.error.mdsError"
+msgstr "Verify key configuration"
+
+msgid "plugins.importexport.prereview.request.error.mdsError"
+msgstr "Request already exists"
+
+msgid "plugins.importexport.prereview.autorRegister.error.mdsError"
+msgstr "The author did not authorize the sending"
+
+msgid "plugins.importexport.prereview.configPlugin.error.mdsError"
+msgstr "Make sure you have the prereview plugin active and configured."
+
+msgid "plugins.importexport.prereview.configure.success.mdSuccess"
+msgstr "DOI successfully deposited in PREreview."
+
+msgid "plugins.importexport.prereview.status.registered"
+msgstr "Registered"
+
+msgid "plugins.importexport.prereview.status.failed"
+msgstr "Unregistered"
+
+msgid "plugins.importexport.prereview.status.NotAuthorized"
+msgstr "Not authorized by the author"
+
+msgid "plugins.importexport.prereview.name"
+msgstr "PREreview"
+
+msgid "plugins.importexport.prereview.action"
+msgstr "Send"
+
+msgid "plugins.importexport.prereview.selector"
+msgstr "Select"
+
+msgid "plugins.importexport.prereview.title"
+msgstr "Title"
+
+msgid "plugins.importexport.prereview.settings"
+msgstr "PREreview Plugin Settings"
+
+msgid "plugins.importexport.prereview.requirements"
+msgstr "Plugin requirements not met"
+
+msgid "plugins.importexport.prereview.requirementsMessage"
+msgstr "Verify that the PREreview plugin is configured"
+
+
+
