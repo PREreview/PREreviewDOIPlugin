@@ -7,10 +7,9 @@
  */
 
 import('lib.pkp.classes.plugins.ImportExportPlugin');
-//TESTING
-define('PREREVIEW_API_CHECK', 'https://prereview2-staging.azurewebsites.net/api/v2/preprints/');
-define('PREREVIEW_API_SEND', 'https://prereview2-staging.azurewebsites.net/api/v2/resolve?identifier=');
-
+//SITE PREREVIEW
+define('PREREVIEW_API_CHECK', 'https://prereview.org/api/v2/preprints/');
+define('PREREVIEW_API_SEND', 'https://prereview.org/api/v2/resolve?identifier=');
 
 class PrereviewDOIPlugin extends ImportExportPlugin {
 	/**
@@ -263,7 +262,7 @@ class PrereviewDOIPlugin extends ImportExportPlugin {
 	function sendDoi($urldoi, $apiname, $key, $request){
 		$status='';
 		$doi="doi-".str_replace("/", "-", strtolower($urldoi));
-        $api=PREREVIEW_API_CHECK . $doi . "/requests";
+        $api=PREREVIEW_API_CHECK . $doi . "/requests?isAuthor=true";
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $api);                                                                   
